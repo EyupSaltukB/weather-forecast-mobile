@@ -73,7 +73,7 @@ export default function HomeScreen() {
       <Image
         style={styles.backgroundImage}
         blurRadius={5}
-        source={require('../assets/images/nightsky.jpg')}
+        source={require('../assets/images/walp.jpg')}
       />
       {loading ? (
         <View
@@ -86,6 +86,7 @@ export default function HomeScreen() {
             thickness={10}
             size={150}
             color={AppColors.secondary}
+            style={{justifyContent : "center", alignItems : "center"}}
           />
         </View>
       ) : (
@@ -263,7 +264,7 @@ export default function HomeScreen() {
                       marginHorizontal: 5,
                     }}>
                     <Image
-                      source={weatherImages[item?.day?.condition?.text]}
+                    source={weatherImages[item?.day?.condition?.text]}
                       style={{width: 50, height: 50}}
                     />
                     <Text style={{color: AppColors.white}}>{dayName}</Text>

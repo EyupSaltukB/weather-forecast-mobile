@@ -1,3 +1,19 @@
+# Mobile Weather App
+It is a weather and weekly forecast app and a mobile app built with React Native.
+The data is instantaneous and provided by the API.
+
+# Used Technologies
+- JS
+
+# Used Libraries
+- Weather API 
+- Axios
+- React Navigation
+- Hero Icons
+- Lodash
+- Progress
+
+
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
